@@ -18,7 +18,8 @@ const BlogContent = ({ imageSrc, title, content }) => {
                             display: 'flex',
                             justifyContent: 'center',
                             alignItems: 'center',
-                        }}>
+                        }}
+                        >
                             <Typography variant="h1" sx={{
                                 color: 'white',
                                 fontWeight: 800,
