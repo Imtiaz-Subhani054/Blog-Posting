@@ -1,0 +1,42 @@
+.readMore{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    gap: 5px;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+
+.icon{
+    transform: rotate(180deg)
+}
+
+.readMore:hover{
+    transform: scale(1.04);
+}
+
+.textClamp {
+    display: -webkit-box;
+    -webkit-line-clamp: 2; /* Limit to two lines */
+    -webkit-box-orient: vertical;  
+    overflow: hidden;
+  }
+
+  @media screen and (min-width: 480px) {
+    .cardFlex {
+      display: flex;
+      background-color: white; 
+      padding: 20px;
+    }
+  }
+
+  @media screen and (min-width: 480px) {
+    .cardPadding {
+      padding-inline: 120px;
+      background-color: #f5f5f5;
+      position: relative;
+      padding-top: 80px;
+      padding-bottom: 80px;
+      overflow: hidden;
+    }
+  }

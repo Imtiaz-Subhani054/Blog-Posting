@@ -1,0 +1,11 @@
+@media screen and (min-width: 480px) {
+    .cardPadding {
+      padding-inline: 120px;
+    }
+  }
+
+  @media screen and (max-width: 480px) {
+    .cardPadding {
+      padding-inline: 20px;
+    }
+  }
